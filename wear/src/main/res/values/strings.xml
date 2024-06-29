@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">XDrip Prefs.</string>
+    <string name="app_name">XDrip 偏好設定</string>
 
     <string-array name="chart_timeframe">
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
-
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>4 小時</item>
+        <item>5 小時</item>
     </string-array>
     <string-array name="chart_timeframe_values">
         <item>1</item>
@@ -29,12 +28,11 @@
     </string-array>
 
     <string-array name="step_delay_time">
-        <item>10 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-
+        <item>10 秒</item>
+        <item>30 秒</item>
+        <item>1 分鐘</item>
+        <item>3 分鐘</item>
+        <item>5 分鐘</item>
     </string-array>
     <string-array name="step_delay_time_values">
         <item>10</item>
@@ -50,9 +48,10 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string name="title_activity_simulation">Spoken Treatment</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
+
+    <string name="title_activity_simulation">語音治療</string>
+    <string name="hello_round">你好，圓形世界！</string>
+    <string name="hello_square">你好，方形世界！</string>
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>
@@ -68,208 +67,208 @@
     <string name="hash">#</string>
     <string name="tick">\u2713</string>
     <string name="backarrow">\u2190</string>
-    <string name="call">Call</string>
-    <string name="erase">Erase</string>
+    <string name="call">呼叫</string>
+    <string name="erase">刪除</string>
 
-    <string name="location_permission_not_approved">&lt;br&gt;&lt;br&gt;&lt;br&gt;WatchFace requires Location permission. Click on this WatchFace or visit Settings &gt; Permissions to approve.</string>
-    <string name="title_activity_location_permission">Location Permission Activity</string>
-    <string name="location_permission_text">WatchFace requires Location access.</string>
-    <string name="sensor_permission_text">WatchFace requires Sensor access.</string>
+    <string name="location_permission_not_approved">&lt;br&gt;&lt;br&gt;&lt;br&gt;錶面需要位置權限。點擊此錶面或前往設定 &gt; 權限以批准。</string>
+    <string name="title_activity_location_permission">位置權限活動</string>
+    <string name="location_permission_text">錶面需要位置訪問。</string>
+    <string name="sensor_permission_text">錶面需要感應器訪問。</string>
     <string name="app_name_permissions">.xdripwear</string>
-    <string name="notify_title">Location Permission</string>
-    <string name="notify_text">xDrip requires Location access permission</string>
+    <string name="notify_title">位置權限</string>
+    <string name="notify_text">xDrip 需要位置訪問權限</string>
 
-    <string name="pref_xdrip_bt_settings">XDrip BT Settings</string>
-    <string name="pref_xdrip_g5_settings">XDrip G5 Settings</string>
-    <string name="pref_bt_collection_method">BT Collector</string>
-    <string name="pref_summary_bt_collection_method">BT Collection Service</string>
-    <string name="pref_enable_wearG5">Enable Collector</string>
-    <string name="pref_summary_enable_wearG5">Connect to BT Collector when phone is out-of-range</string>
-    <string name="pref_force_wearG5">Force Collector</string>
-    <string name="pref_summary_force_wearG5">Force phone to use Wear Collection Service</string>
-    <string name="pref_bg_notifications">Enable Alerts</string>
-    <string name="pref_summary_bg_notifications">Enable BG alerts</string>
-    <string name="pref_persistent_high_alert_enabled">High Alerts</string>
-    <string name="pref_summary_persistent_high_alert_enabled">Enable Persistent High alerts</string>
-    <string name="pref_run_ble_scan_constantly">Scan for G5</string>
-    <string name="pref_summary_run_ble_scan_constantly">Some devices work better when scanning constantly, others do not. If reading is reliable when this setting is not selected, you should have improved battery life. Turn this setting on if you are missing readings at high rates and unexpected times.</string>
-    <string name="pref_run_G5_ble_tasks_on_uithread">Force G5 to UI</string>
-    <string name="pref_summary_run_G5_ble_tasks_on_uithread">Running on UI Thread is crucial for some Android devices to properly connect, but can cause missed readings when other UI intensive activities are in use.</string>
-    <string name="pref_always_get_new_keys">Auth G5/read</string>
-    <string name="pref_summary_always_get_new_keys">This will attempt a full authentication each read attempt. Redundant if Unbond before each read is also selected.</string>
-    <string name="pref_always_unbond_G5">Unbond G5/read</string>
-    <string name="pref_summary_always_unbond_G5">This will remove the G5 from your device\'s paired device list, and attempt a full authentication and bonding with each read attempt.</string>
-    <string name="pref_refresh_on_change">Refresh On Change</string>
-    <string name="pref_summary_refresh_on_change">Refresh face on data change instead of every minute</string>
-    <string name="pref_show_treatments">Show Treatments</string>
-    <string name="pref_summary_show_treatments">Show Treatment points on graph</string>
-    <string name="pref_show_toasts">Show Toasts</string>
-    <string name="pref_summary_show_toasts">Show Steps and Extra Status toast popup messages</string>
-    <string name="pref_use_24HourFormat">24 HR Format</string>
-    <string name="pref_summary_use_24HourFormat">Format time using 24 Hour Format</string>
-    <string name="pref_show_date">Show Date</string>
-    <string name="pref_summary_show_date">Show Date</string>
-    <string name="pref_override_locale">Override Locale</string>
-    <string name="pref_summary_override_locale">Override watch with phone locale</string>
-    <string name="pref_show_steps">Show Steps</string>
-    <string name="pref_summary_show_steps">Show Step Counter</string>
-    <string name="pref_show_external_status">Show Status</string>
-    <string name="pref_summary_show_external_status">Show Loop Status</string>
-    <string name="pref_show_bridge_battery">Show Bridge</string>
-    <string name="pref_summary_show_bridge_battery">Show Bridge Battery</string>
-    <string name="init_external_status">no status</string>
-    <string name="label_show_steps">Steps: %1$d</string>
-    <string name="label_show_steps_km">km: %1$s</string>
-    <string name="label_show_steps_mi">mi: %1$s</string>
-    <string name="label_show_steps_rcvdtime">rcvd: %1$s</string>
-    <string name="label_show_external_status">Status: </string>
-    <string name="label_show_external_status_abbrv">S: </string>
-    <string name="label_show_uploader_wear">Wear: %1$s%%</string>
-    <string name="label_show_uploader_wear_abbrv">W: %1$s%%</string>
-    <string name="label_show_uploader">Uploader: %1$s%%</string>
-    <string name="label_show_uploader_abbrv">U: %1$s%%</string>
-    <string name="label_show_bridge_battery_percent">Bridge: %1$s%%</string>
-    <string name="label_show_bridge_battery_volt">Bridge: %1$smV</string>
-    <string name="label_show_bridge_battery_percent_abbrv">B: %1$s%%</string>
-    <string name="label_show_bridge_battery_volt_abbrv">B: %1$smV</string>
+    <string name="pref_xdrip_bt_settings">XDrip 藍牙設定</string>
+    <string name="pref_xdrip_g5_settings">XDrip G5 設定</string>
+    <string name="pref_bt_collection_method">藍牙收集器</string>
+    <string name="pref_summary_bt_collection_method">藍牙收集服務</string>
+    <string name="pref_enable_wearG5">啟用收集器</string>
+    <string name="pref_summary_enable_wearG5">當手機超出範圍時連接到藍牙收集器</string>
+    <string name="pref_force_wearG5">強制收集器</string>
+    <string name="pref_summary_force_wearG5">強制手機使用穿戴收集服務</string>
+    <string name="pref_bg_notifications">啟用警報</string>
+    <string name="pref_summary_bg_notifications">啟用 BG 警報</string>
+    <string name="pref_persistent_high_alert_enabled">高警報</string>
+    <string name="pref_summary_persistent_high_alert_enabled">啟用持續高警報</string>
+    <string name="pref_run_ble_scan_constantly">掃描 G5</string>
+    <string name="pref_summary_run_ble_scan_constantly">某些設備在持續掃描時效果更佳，其他設備則不然。如果在未選擇此設定時讀取穩定，您應該會有更好的電池壽命。如果您在高頻率和意外時間遺漏讀取，請開啟此設定。</string>
+    <string name="pref_run_G5_ble_tasks_on_uithread">將 G5 強制到 UI</string>
+    <string name="pref_summary_run_G5_ble_tasks_on_uithread">對某些 Android 設備來說，在 UI 執行緒上運行對於正確連接至關重要，但在使用其他 UI 密集活動時可能會導致遺漏讀取。</string>
+    <string name="pref_always_get_new_keys">授權 G5/讀取</string>
+    <string name="pref_summary_always_get_new_keys">這將在每次讀取嘗試時嘗試完整授權。如果在每次讀取前解除配對也是選中的話，這是多餘的。</string>
+    <string name="pref_always_unbond_G5">解除 G5/讀取</string>
+    <string name="pref_summary_always_unbond_G5">這將從您的設備的配對設備列表中刪除 G5，並在每次讀取嘗試時嘗試完整授權和配對。</string>
+    <string name="pref_refresh_on_change">變更時刷新</string>
+    <string name="pref_summary_refresh_on_change">資料變更時刷新錶面而非每分鐘刷新一次</string>
+    <string name="pref_show_treatments">顯示治療</string>
+    <string name="pref_summary_show_treatments">在圖表上顯示治療點</string>
+    <string name="pref_show_toasts">顯示提示</string>
+    <string name="pref_summary_show_toasts">顯示步數和額外狀態的提示彈出訊息</string>
+    <string name="pref_use_24HourFormat">24 小時制格式</string>
+    <string name="pref_summary_use_24HourFormat">使用 24 小時制格式化時間</string>
+    <string name="pref_show_date">顯示日期</string>
+    <string name="pref_summary_show_date">顯示日期</string>
+    <string name="pref_override_locale">覆蓋區域設置</string>
+    <string name="pref_summary_override_locale">使用手機區域設置覆蓋手錶</string>
+    <string name="pref_show_steps">顯示步數</string>
+    <string name="pref_summary_show_steps">顯示步數計數器</string>
+    <string name="pref_show_external_status">顯示狀態</string>
+    <string name="pref_summary_show_external_status">顯示環路狀態</string>
+    <string name="pref_show_bridge_battery">顯示橋接電池</string>
+    <string name="pref_summary_show_bridge_battery">顯示橋接電池</string>
+    <string name="init_external_status">無狀態</string>
+    <string name="label_show_steps">步數：%1$d</string>
+    <string name="label_show_steps_km">公里：%1$s</string>
+    <string name="label_show_steps_mi">英里：%1$s</string>
+    <string name="label_show_steps_rcvdtime">接收時間：%1$s</string>
+    <string name="label_show_external_status">狀態：</string>
+    <string name="label_show_external_status_abbrv">狀：</string>
+    <string name="label_show_uploader_wear">穿戴：%1$s%%</string>
+    <string name="label_show_uploader_wear_abbrv">穿：%1$s%%</string>
+    <string name="label_show_uploader">上傳：%1$s%%</string>
+    <string name="label_show_uploader_abbrv">上：%1$s%%</string>
+    <string name="label_show_bridge_battery_percent">橋接：%1$s%%</string>
+    <string name="label_show_bridge_battery_volt">橋接：%1$smV</string>
+    <string name="label_show_bridge_battery_percent_abbrv">橋：%1$s%%</string>
+    <string name="label_show_bridge_battery_volt_abbrv">橋：%1$smV</string>
     <string name="label_minuteago_zero_abbrv">--\'</string>
-    <string name="label_minuteago_zero">-- Minute ago</string>
+    <string name="label_minuteago_zero">-- 分鐘前</string>
     <string name="label_minuteago_abbrv">%1$d\'</string>
-    <string name="label_minuteago">%1$d Minute ago</string>
+    <string name="label_minuteago">%1$d 分鐘前</string>
     <string name="label_minuteago_abbrv_pl">%1$d\'</string>
-    <string name="label_minuteago_pl">%1$d Minutes ago</string>
-    <string name="pref_toggle_fontsize">Small Font</string>
-    <string name="pref_summary_toggle_fontsize">Fontsize of small text in status and delta time</string>
-    <string name="pref_show_opaque_card">Opaque Card</string>
-    <string name="pref_summary_show_opaque_card">Show cards with opaque background</string>
-    <string name="pref_xdrip_watch_settings">XDrip Watchface Settings</string>
-    <string name="pref_chart_time">Chart Timeframe</string>
-    <string name="pref_summary_chart_time">Chart Timeframe</string>
-    <string name="pref_step_delay_time">Step Delay</string>
-    <string name="pref_summary_step_delay_time">Step Counter Time Delay</string>
-    <string name="pref_circlewf_settings">Circle WF Settings</string>
-    <string name="pref_show_ago">Show Ago</string>
-    <string name="pref_summary_show_ago">Minutes since last reading. (Circle WF)</string>
-    <string name="pref_show_delta">Show Delta</string>
-    <string name="pref_summary_show_delta">Show delta. (Circle WF)</string>
-    <string name="pref_show_bg">Show BG</string>
-    <string name="pref_summary_show_bg">Show BG. (Circle WF)</string>
-    <string name="pref_show_bignumbers">Show Big Numbers</string>
-    <string name="pref_summary_show_bignumbers">Big numbers. (Circle WF)</string>
-    <string name="pref_show_ring_history">Show Ring History</string>
-    <string name="pref_summary_show_ring_history">Graphical history. (Circle WF)</string>
-    <string name="pref_show_light_ring_history">Light Ring History</string>
-    <string name="pref_summary_show_light_ring_histor">Less eyecandy. (Circle WF)</string>
-    <string name="pref_show_animations">Show Animations</string>
-    <string name="pref_summary_show_animations">Animations. (Circle WF)</string>
+    <string name="label_minuteago_pl">%1$d 分鐘前</string>
+    <string name="pref_toggle_fontsize">小字體</string>
+    <string name="pref_summary_toggle_fontsize">狀態和差值時間的小字體大小</string>
+    <string name="pref_show_opaque_card">不透明卡片</string>
+    <string name="pref_summary_show_opaque_card">顯示不透明背景的卡片</string>
+    <string name="pref_xdrip_watch_settings">XDrip 手錶面設定</string>
+    <string name="pref_chart_time">圖表時間範圍</string>
+    <string name="pref_summary_chart_time">圖表時間範圍</string>
+    <string name="pref_step_delay_time">步數延遲</string>
+    <string name="pref_summary_step_delay_time">步數計數器時間延遲</string>
+    <string name="pref_circlewf_settings">圓形錶面設定</string>
+    <string name="pref_show_ago">顯示前次讀取時間</string>
+    <string name="pref_summary_show_ago">自上次讀取以來的分鐘數。（圓形錶面）</string>
+    <string name="pref_show_delta">顯示差值</string>
+    <string name="pref_summary_show_delta">顯示差值。（圓形錶面）</string>
+    <string name="pref_show_bg">顯示 BG</string>
+    <string name="pref_summary_show_bg">顯示 BG。（圓形錶面）</string>
+    <string name="pref_show_bignumbers">顯示大數字</string>
+    <string name="pref_summary_show_bignumbers">大數字。（圓形錶面）</string>
+    <string name="pref_show_ring_history">顯示環狀歷史</string>
+    <string name="pref_summary_show_ring_history">圖形化歷史。（圓形錶面）</string>
+    <string name="pref_show_light_ring_history">輕量環狀歷史</string>
+    <string name="pref_summary_show_light_ring_histor">較少的視覺效果。（圓形錶面）</string>
+    <string name="pref_show_animations">顯示動畫</string>
+    <string name="pref_summary_show_animations">動畫。（圓形錶面）</string>
 
-    <!-- Location Settings -->
-    <string name="location_not_found_title">Location Is Not Enabled</string>
-    <string name="location_not_found_message">For Bluetooth discovery to work on newer devices, location must be enabled. xDrip does not track your location and it can be disabled after pairing is successful.</string>
-    <string name="location_yes">Enable</string>
-    <string name="no">No</string>
+    <!-- 位置設定 -->
+    <string name="location_not_found_title">位置未啟用</string>
+    <string name="location_not_found_message">要在新設備上進行藍牙發現，必須啟用位置。xDrip 不會跟踪您的位置，配對成功後可以停用。</string>
+    <string name="location_yes">啟用</string>
+    <string name="no">否</string>
 
-    <string name="persistent_high_for_greater_than">Persistent High for > </string>
-    <string name="space_mins">" mins"</string>
-    <string name="notify_collector_started">%1$s Collector Started on Watch</string>
-    <string name="notify_low_predicted_in_n_mins">Low predicted in %1$d mins.</string>
-    <string name="snooze">Snooze</string>
-    <string name="no_active_alert_exists">No active alert exists</string>
-    <string name="active_alert_exists_named">Active alert exists named</string>
-    <string name="bracket_not_snoozed">(not snoozed)</string>
-    <string name="all_alerts_disabled_until">"All alerts disabled until "</string>
-    <string name="low_alerts_disabled_until">"Low alerts disabled until "</string>
-    <string name="high_alerts_disabled_until">"High alerts disabled until "</string>
-    <string name="default_snooze">Default Snooze</string>
-    <string name="until_you_reenable">Until you re-enable</string>
-    <string name="disable_low_alerts">Disable Low alerts</string>
-    <string name="re_enable_low_alerts">Re-Enable Low Alerts</string>
-    <string name="disable_high_alerts">Disable High alerts</string>
-    <string name="re_enable_high_alerts">Re-Enable High Alerts</string>
-    <string name="disable_all_alerts">Disable All alerts</string>
-    <string name="re_enable_all_alerts">Re-Enable All Alerts</string>
-    <string name="cancel">Cancel</string>
-    <string name="set">Set</string>
-    <string name="alert_snoozed_by_phone">Alert snoozed by phone</string>
-    <string name="action_buttons_text">Enter Treatment, Refresh DB, Restart Collector, XDrip Prefs</string>
-    <string name="table_buttons_text">View Blood tests, Treatments, Calibrations and BG data</string>
-    <string name="sensor_table">Sensor Table</string>
-    <string name="bg_readings_table">BgReadings Table</string>
-    <string name="calibration_data_table">Calibration Table</string>
-    <string name="BloodTestTable">BloodTest Table</string>
-    <string name="TreatmentsTable">Treatments Table</string>
-    <string name="notify_refreshdb">Requested Wear DB refresh</string>
-    <string name="notify_table_size">Table %1$s contains %2$d entries.</string>
+    <string name="persistent_high_for_greater_than">持續高於</string>
+    <string name="space_mins">分鐘</string>
+    <string name="notify_collector_started">%1$s 收集器已在手錶上啟動</string>
+    <string name="notify_low_predicted_in_n_mins">%1$d 分鐘內預測低血糖。</string>
+    <string name="snooze">稍後提醒</string>
+    <string name="no_active_alert_exists">無活動警報存在</string>
+    <string name="active_alert_exists_named">存在名為的活動警報</string>
+    <string name="bracket_not_snoozed">（未稍後提醒）</string>
+    <string name="all_alerts_disabled_until">所有警報停用至</string>
+    <string name="low_alerts_disabled_until">低警報停用至</string>
+    <string name="high_alerts_disabled_until">高警報停用至</string>
+    <string name="default_snooze">預設稍後提醒</string>
+    <string name="until_you_reenable">直到您重新啟用</string>
+    <string name="disable_low_alerts">停用低警報</string>
+    <string name="re_enable_low_alerts">重新啟用低警報</string>
+    <string name="disable_high_alerts">停用高警報</string>
+    <string name="re_enable_high_alerts">重新啟用高警報</string>
+    <string name="disable_all_alerts">停用所有警報</string>
+    <string name="re_enable_all_alerts">重新啟用所有警報</string>
+    <string name="cancel">取消</string>
+    <string name="set">設定</string>
+    <string name="alert_snoozed_by_phone">警報已被手機稍後提醒</string>
+    <string name="action_buttons_text">輸入治療、刷新資料庫、重啟收集器、XDrip 偏好設定</string>
+    <string name="table_buttons_text">查看血液測試、治療、校準和 BG 資料</string>
+    <string name="sensor_table">感應器表</string>
+    <string name="bg_readings_table">BG 讀取表</string>
+    <string name="calibration_data_table">校準表</string>
+    <string name="BloodTestTable">血液測試表</string>
+    <string name="TreatmentsTable">治療表</string>
+    <string name="notify_refreshdb">請求刷新 Wear 資料庫</string>
+    <string name="notify_table_size">表 %1$s 包含 %2$d 條目。</string>
     <string name="blukon">Blucon</string>
-    <string name="ok">OK</string>
-    <string name="enable_permission">Enable Permission</string>
+    <string name="ok">確定</string>
+    <string name="enable_permission">啟用權限</string>
     <string name="tomato">Tomato</string>
     <string name="bubble">Bubble</string>
     <string name="atom">Atom</string>
-    <string name="space_minutes_ago">" Minutes ago"</string>
-    <string name="space_minute_ago">" Minute ago"</string>
-    <string name="snooze_alert">Snooze Alert</string>
-    <string name="sending_snooze">Sending Snooze</string>
-    <string name="bluereader_restdays_onhome_sum">Shows the estimated rest Days for blueReader on home screen after the battery must be reload</string>
-    <string name="bluereader_restdays_onhome">Rest days on Home Screen</string>
-    <string name="bluereader_turnoff_sum">Switch the blueReader off, if the battery is less then selected value</string>
-    <string name="bluereader_turnoff">Safety switch off</string>
-    <string name="blueReader_turnoffvalue">Value in %</string>
-    <string name="blueReader_turnoffvalue_sum">where the blueReader will be turned off</string>
-    <string name="days">days</string>
-    <string name="bluereaderoff">blueReader will be turn off, as the battery is lower then </string>
-    <string name="bluereader_position">Check position of blueReader on the sensor, as it was not able to read!</string>
-    <string name="bluereaderuglystate">The blueReader was found in an ugly state! It will be now turn off now, and you turn it back to on (short press of the button). After that the blueReader should work as expected!</string>
-    <string name="xdrip_software_changed_format">xDrip WATCH software version changed from: %1$s to %2$s</string>
-    <string name="summary_always_on_screen">Force screen always on prior to BT scanning</string>
-    <string name="title_always_on_screen">Force Screen Always-on</string>
-    <string name="sumary_alert_use_sounds">Use watch speaker if it has one to play alert sound</string>
-    <string name="title_alert_use_sounds">Play Sound</string>
-    <string name="summary_dark">Dark theme</string>
-    <string name="title_dark">Dark</string>
-    <string name="summary_showHeartRate">Show last BPM</string>
-    <string name="title_showHeartRate">Heart Rate</string>
-    <string name="summary_use_low_bit_mode">Always use low color ambient mode</string>
-    <string name="title_use_low_bit_mode">Low color</string>
-    <string name="summary_use_black_divider">Divider matches background</string>
-    <string name="title_use_black_divider">Match Divider</string>
-    <string name="summary_has_demigod_mode">Running on a patched rom giving us full control</string>
-    <string name="title_has_demigod_mode">DemiGod Mode</string>
-    <string name="xdrip_scanning_nfc">xDrip+ Scanning NFC</string>
-    <string name="still_processing_previous_backfill_request">Still processing previous back-fill request!</string>
-    <string name="please_wait">Please wait..</string>
-    <string name="didnt_find_any_glucose_readings_in_that_time_period">Didn\'t find any glucose readings in that time period</string>
-    <string name="got_calibration_in_the_future__cannot_process">Got calibration in the future - cannot process!</string>
-    <string name="remote_snooze">Remote snooze..</string>
-    <string name="sensor_stopped">Sensor stopped</string>
-    <string name="restarting_collector">Restarting Collector!</string>
-    <string name="follower_deleted_succesfully">Follower deleted successfully</string>
-    <string name="failed_to_delete_follower">Failed to delete follower</string>
-    <string name="input_not_found_cancelled">Input not found! Cancelled!</string>
-    <string name="cancelled">Cancelled!</string>
-    <string name="no_sensor_found">No sensor found</string>
-    <string name="checksum_failed__retrying">Checksum failed - retrying</string>
-    <string name="scanning">Scanning</string>
-    <string name="librealarm_data_format_appears_incompatible_protocol_changed_or_no_data">LibreAlarm data format appears incompatible! Protocol changed or no data?</string>
-    <string name="please_update_librealarm_to_use_oop_algorithm">Please update LibreAlarm to use OOP algorithm</string>
-    <string name="sensor_clock_has_not_advanced">Sensor clock has not advanced!</string>
-    <string name="sensor_age_has_gone_backwards">Sensor age has gone backwards!!</string>
-    <string name="phone_has_no_nfc_reader">Phone has no NFC reader</string>
-    <string name="nfc_is_not_enabled">NFC is not enabled</string>
-    <string name="phone_nfc_is_having_problems">Phone NFC is having problems!</string>
-    <string name="not_so_quickly_wait_60_seconds">Not so quickly, wait 60 seconds</string>
-    <string name="not_so_quickly_wait_30_seconds">Not so quickly, wait 30 seconds</string>
-    <string name="nfc_diag_timeout">NFC diag timeout</string>
-    <string name="nfc_read_timeout">NFC read timeout</string>
-    <string name="nfc_invalid_data__try_again">NFC invalid data - try again</string>
-    <string name="turned_off_anytag_feature">Turned off any-tag feature</string>
-    <string name="nfc_invalid_data">NFC invalid data</string>
-    <string name="scanned_ok">Scanned OK!</string>
-    <string name="nfc_io_error">NFC IO Error</string>
-    <string name="nfc_error">NFC Error</string>
-    <string name="ob1_session_restarted_title">Sensor session restarted</string>
-    <string name="ob1_session_restarted_msg">The sensor session was preemptively restarted and set to 3 days, please check if next readings are off and calibrate if needed</string>
-    <string name="ob1_session_restarted_note">Transmitter session was restarted</string>
-    <string name="xdrip_oop2_not_installed">xDrip+ needs OOP2 to handle Libre2/LibreUS sensors.</string>
-    <string name="please_update_OOP2_or_move_to_calibrate_based_on_raw_mode">please update OOP2 or move to calibrate based on raw mode</string>
+    <string name="space_minutes_ago">分鐘前</string>
+    <string name="space_minute_ago">分鐘前</string>
+    <string name="snooze_alert">稍後提醒警報</string>
+    <string name="sending_snooze">發送稍後提醒</string>
+    <string name="bluereader_restdays_onhome_sum">在主螢幕上顯示 blueReader 的估計休息天數，電池需要重新充電後</string>
+    <string name="bluereader_restdays_onhome">主螢幕上的休息天數</string>
+    <string name="bluereader_turnoff_sum">如果電池低於選定值，請關閉 blueReader</string>
+    <string name="bluereader_turnoff">安全關閉</string>
+    <string name="blueReader_turnoffvalue">百分比值</string>
+    <string name="blueReader_turnoffvalue_sum">blueReader 將關閉的值</string>
+    <string name="days">天</string>
+    <string name="bluereaderoff">當電池低於時，blueReader 將關閉</string>
+    <string name="bluereader_position">檢查 blueReader 在感應器上的位置，因為無法讀取！</string>
+    <string name="bluereaderuglystate">發現 blueReader 處於不佳狀態！它現在將關閉，然後您可以重新打開（按一下按鈕）。之後 blueReader 應該會正常工作！</string>
+    <string name="xdrip_software_changed_format">xDrip WATCH 軟體版本從：%1$s 更改為：%2$s</string>
+    <string name="summary_always_on_screen">在藍牙掃描前強制螢幕始終打開</string>
+    <string name="title_always_on_screen">強制螢幕始終打開</string>
+    <string name="sumary_alert_use_sounds">如果手錶有揚聲器，則使用手錶揚聲器播放警報音</string>
+    <string name="title_alert_use_sounds">播放聲音</string>
+    <string name="summary_dark">深色主題</string>
+    <string name="title_dark">深色</string>
+    <string name="summary_showHeartRate">顯示最後一次 BPM</string>
+    <string name="title_showHeartRate">心率</string>
+    <string name="summary_use_low_bit_mode">始終使用低色彩模式</string>
+    <string name="title_use_low_bit_mode">低色彩</string>
+    <string name="summary_use_black_divider">分隔符匹配背景</string>
+    <string name="title_use_black_divider">匹配分隔符</string>
+    <string name="summary_has_demigod_mode">在修補的 ROM 上運行，讓我們擁有完全控制權</string>
+    <string name="title_has_demigod_mode">半神模式</string>
+    <string name="xdrip_scanning_nfc">xDrip+ 掃描 NFC</string>
+    <string name="still_processing_previous_backfill_request">仍在處理先前的回填請求！</string>
+    <string name="please_wait">請稍候..</string>
+    <string name="didnt_find_any_glucose_readings_in_that_time_period">在那段時間內未找到任何葡萄糖讀數</string>
+    <string name="got_calibration_in_the_future__cannot_process">收到未來的校準 - 無法處理！</string>
+    <string name="remote_snooze">遠程稍後提醒..</string>
+    <string name="sensor_stopped">感應器已停止</string>
+    <string name="restarting_collector">重啟收集器！</string>
+    <string name="follower_deleted_succesfully">追隨者已成功刪除</string>
+    <string name="failed_to_delete_follower">刪除追隨者失敗</string>
+    <string name="input_not_found_cancelled">未找到輸入！已取消！</string>
+    <string name="cancelled">已取消！</string>
+    <string name="no_sensor_found">未找到感應器</string>
+    <string name="checksum_failed__retrying">校驗碼失敗 - 重試中</string>
+    <string name="scanning">掃描中</string>
+    <string name="librealarm_data_format_appears_incompatible_protocol_changed_or_no_data">LibreAlarm 資料格式似乎不兼容！協議已更改或無資料？</string>
+    <string name="please_update_librealarm_to_use_oop_algorithm">請更新 LibreAlarm 以使用 OOP 演算法</string>
+    <string name="sensor_clock_has_not_advanced">感應器時鐘未前進！</string>
+    <string name="sensor_age_has_gone_backwards">感應器年齡倒退了！！</string>
+    <string name="phone_has_no_nfc_reader">手機無 NFC 讀取器</string>
+    <string name="nfc_is_not_enabled">NFC 未啟用</string>
+    <string name="phone_nfc_is_having_problems">手機 NFC 出現問題！</string>
+    <string name="not_so_quickly_wait_60_seconds">不要那麼快，等 60 秒</string>
+    <string name="not_so_quickly_wait_30_seconds">不要那麼快，等 30 秒</string>
+    <string name="nfc_diag_timeout">NFC 診斷超時</string>
+    <string name="nfc_read_timeout">NFC 讀取超時</string>
+    <string name="nfc_invalid_data__try_again">NFC 資料無效 - 請重試</string>
+    <string name="turned_off_anytag_feature">關閉了任何標籤功能</string>
+    <string name="nfc_invalid_data">NFC 資料無效</string>
+    <string name="scanned_ok">掃描正常！</string>
+    <string name="nfc_io_error">NFC IO 錯誤</string>
+    <string name="nfc_error">NFC 錯誤</string>
+    <string name="ob1_session_restarted_title">感應器會話已重新開始</string>
+    <string name="ob1_session_restarted_msg">感應器會話已預先重新開始並設為 3 天，請檢查接下來的讀數是否不準確，並在需要時校準</string>
+    <string name="ob1_session_restarted_note">發射器會話已重新開始</string>
+    <string name="xdrip_oop2_not_installed">xDrip+ 需要 OOP2 來處理 Libre2/LibreUS 感應器。</string>
+    <string name="please_update_OOP2_or_move_to_calibrate_based_on_raw_mode">請更新 OOP2 或移至基於原始模式校準</string>
 </resources>

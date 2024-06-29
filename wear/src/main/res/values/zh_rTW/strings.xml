@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XDrip 設定</string>
+
+    <string-array name="chart_timeframe">
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>4 小時</item>
+        <item>5 小時</item>
+    </string-array>
+    <string-array name="chart_timeframe_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="toggle_fontsize">
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="toggle_fontsize_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="step_delay_time">
+        <item>10 秒</item>
+        <item>30 秒</item>
+        <item>1 分鐘</item>
+        <item>3 分鐘</item>
+        <item>5 分鐘</item>
+    </string-array>
+    <string-array name="step_delay_time_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="step_delay_time_index">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_simulation">語音治療</string>
+    <string name="hello_round">哈囉！圓形世界</string>
+    <string name="hello_square">哈囉！方形世界</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="star">*</string>
+    <string name="dot">\u2022</string>
+    <string name="hash">#</string>
+    <string name="tick">\u2713</string>
+    <string name="backarrow">\u2190</string>
+    <string name="call">撥打</string>
+    <string name="erase">刪除</string>
+
+    <string name="location_permission_not_approved">&lt;br&gt;&lt;br&gt;&lt;br&gt;錶面需要位置權限。請點擊此錶面或訪問設定&gt;權限以授權。</string>
+    <string name="title_activity_location_permission">位置權限活動</string>
+    <string name="location_permission_text">錶面需要位置存取權限。</string>
+    <string name="sensor_permission_text">錶面需要感應器存取權限。</string>
+    <string name="app_name_permissions">.xdripwear</string>
+    <string name="notify_title">位置權限</string>
+    <string name="notify_text">xDrip需要位置存取權限</string>
+
+    <string name="pref_xdrip_bt_settings">XDrip 藍牙設定</string>
+    <string name="pref_xdrip_g5_settings">XDrip G5設定</string>
+    <string name="pref_bt_collection_method">藍牙收集器</string>
+    <string name="pref_summary_bt_collection_method">藍牙收集服務</string>
+    <string name="pref_enable_wearG5">啟用收集器</string>
+    <string name="pref_summary_enable_wearG5">當手機超出範圍時，連接至藍牙收集器</string>
+    <string name="pref_force_wearG5">強制收集器</string>
+    <string name="pref_summary_force_wearG5">強制手機使用Wear收集服務</string>
+    <string name="pref_bg_notifications">啟用警報</string>
+    <string name="pref_summary_bg_notifications">啟用血糖警報</string>
+    <string name="pref_persistent_high_alert_enabled">持續高警報</string>
+    <string name="pref_summary_persistent_high_alert_enabled">啟用持續高警報</string>
+    <string name="pref_run_ble_scan_constantly">持續掃描G5</string>
+    <string name="pref_summary_run_ble_scan_constantly">某些設備持續掃描時運作較佳，如果當此設定未選時讀取可靠，則應有較好的電池壽命。如果您在高速和意外時刻遺漏讀取，請開啟此設定。</string>
+    <string name="pref_run_G5_ble_tasks_on_uithread">強制G5至UI</string>
+    <string name="pref_summary_run_G5_ble_tasks_on_uithread">在UI執行緒上運行對某些Android裝置至關重要以確保正確連接，但當使用其他UI密集型活動時可能導致遺漏讀取。</string>
+    <string name="pref_always_get_new_keys">認證G5/讀取</string>
+    <string name="pref_summary_always_get_new_keys">這將在每次讀取嘗試時進行完整的認證。如果也選擇了每次讀取前解除配對，則此設定是多餘的。</string>
+    <string name="pref_always_unbond_G5">解除綁定G5/讀取</string>
+    <string name="pref_summary_always_unbond_G5">這將在設備的已配對設備列表中移除G5，並在每次讀取嘗試時進行完整的認證和綁定。</string>
+    <string name="pref_refresh_on_change">資料變更時刷新</string>
+    <string name="pref_summary_refresh_on_change">資料變更時刷新錶面，而不是每分鐘</string>
+    <string name="pref_show_treatments">顯示治療</string>
+    <string name="pref_summary_show_treatments">在圖表上顯示治療點</string>
+    <string name="pref_show_toasts">顯示彈出訊息</string>
+    <string name="pref_summary_show_toasts">顯示步數和額外狀態的彈出訊息</string>
+    <string name="pref_use_24HourFormat">24小時格式</string>
+    <string name="pref_summary_use_24HourFormat">使用24小時制來格式化時間</string>
+    <string name="pref_show_date">顯示日期</string>
+    <string name="pref_summary_show_date">顯示日期</string>
+    <string name="pref_override_locale">覆蓋地區設定</string>
+    <string name="pref_summary_override_locale">用手機地區設定覆蓋錶</string>
+    <string name="pref_show_steps">顯示步數</string>
+    <string name="pref_summary_show_steps">顯示步數計數器</string>
+    <string name="pref_show_external_status">顯示狀態</string>
+    <string name="pref_summary_show_external_status">顯示Loop狀態</string>
+    <string name="pref_show_bridge_battery">顯示橋接電池</string>
+    <string name="pref_summary_show_bridge_battery">顯示橋接電池</string>
+    <string name="init_external_status">無狀態</string>
+    <string name="label_show_steps">步數：%1$d</string>
+    <string name="label_show_steps_km">公里：%1$s</string>
+    <string name="label_show_steps_mi">英里：%1$s</string>
+    <string name="label_show_steps_rcvdtime">接收時間：%1$s</string>
+    <string name="label_show_external_status">狀態：</string>
+    <string name="label_show_external_status_abbrv">狀：</string>
+    <string name="label_show_uploader_wear">穿戴：%1$s%%</string>
+    <string name="label_show_uploader_wear_abbrv">W：%1$s%%</string>
+    <string name="label_show_uploader">上傳者：%1$s%%</string>
+    <string name="label_show_uploader_abbrv">U：%1$s%%</string>
+    <string name="label_show_bridge_battery_percent">橋接：%1$s%%</string>
+    <string name="label_show_bridge_battery_volt">橋接：%1$smV</string>
+    <string name="label_show_bridge_battery_percent_abbrv">橋：%1$s%%</string>
+    <string name="label_show_bridge_battery_volt_abbrv">橋：%1$smV</string>
+    <string name="label_minuteago_zero_abbrv">--\'</string>
+    <string name="label_minuteago_zero">-- 分鐘前</string>
+    <string name="label_minuteago_abbrv">%1$d\'</string>
+    <string name="label_minuteago">%1$d 分鐘前</string>
+    <string name="label_minuteago_abbrv_pl">%1$d\'</string>
+    <string name="label_minuteago_pl">%1$d 分鐘前</string>
+    <string name="pref_toggle_fontsize">小字體</string>
+    <string name="pref_summary_toggle_fontsize">狀態和時間差異的小文字大小</string>
+    <string name="pref_show_opaque_card">不透明卡片</string>
+    <string name="pref_summary_show_opaque_card">顯示有不透明背景的卡片</string>
+    <string name="pref_xdrip_watch_settings">XDrip 錶面設定</string>
+    <string name="pref_chart_time">圖表時間範圍</string>
+    <string name="pref_summary_chart_time">圖表時間範圍</string>
+    <string name="pref_step_delay_time">步數延遲</string>
+    <string name="pref_summary_step_delay_time">步數計時器延遲</string>
+    <string name="pref_circlewf_settings">圓形錶面設定</string>
+    <string name="pref_show_ago">顯示前</string>
+    <string name="pref_summary_show_ago">最後讀取後的分鐘數。（圓形錶面）</string>
+    <string name="pref_show_delta">顯示差異</string>
+    <string name="pref_summary_show_delta">顯示差異。（圓形錶面）</string>
+    <string name="pref_show_bg">顯示血糖</string>
+    <string name="pref_summary_show_bg">顯示血糖。（圓形錶面）</string>
+    <string name="pref_show_bignumbers">顯示大數字</string>
+    <string name="pref_summary_show_bignumbers">大數字。（圓形錶面）</string>
+    <string name="pref_show_ring_history">顯示環形歷史</string>
+    <string name="pref_summary_show_ring_history">圖形歷史。（圓形錶面）</string>
+    <string name="pref_show_light_ring_history">輕環形歷史</string>
+    <string name="pref_summary_show_light_ring_histor">較少的視覺效果。（圓形錶面）</string>
+    <string name="pref_show_animations">顯示動畫</string>
+    <string name="pref_summary_show_animations">動畫。（圓形錶面）</string>
+
+    <!-- 位置設定 -->
+    <string name="location_not_found_title">未啟用位置功能</string>
+    <string name="location_not_found_message">為了在新設備上進行藍牙發現，必須啟用位置功能。xDrip不會追蹤您的位置，且在配對成功後可以停用。</string>
+    <string name="location_yes">啟用</string>
+    <string name="no">否</string>
+
+    <string name="persistent_high_for_greater_than">持續高於</string>
+    <string name="space_mins">分鐘</string>
+    <string name="notify_collector_started">%1$s 收集器已在錶上啟動</string>
+    <string name="notify_low_predicted_in_n_mins">預測低血糖於 %1$d 分鐘後。</string>
+    <string name="snooze">暫停</string>
+    <string name="no_active_alert_exists">無活動警報</string>
+    <string name="active_alert_exists_named">存在命名的活動警報</string>
+    <string name="bracket_not_snoozed">(未暫停)</string>
+    <string name="all_alerts_disabled_until">所有警報停用至</string>
+    <string name="low_alerts_disabled_until">低警報停用至</string>
+    <string name="high_alerts_disabled_until">高警報停用至</string>
+    <string name="default_snooze">預設暫停</string>
+    <string name="until_you_reenable">直到您重新啟用</string>
+    <string name="disable_low_alerts">停用低警報</string>
+    <string name="re_enable_low_alerts">重新啟用低警報</string>
+    <string name="disable_high_alerts">停用高警報</string>
+    <string name="re_enable_high_alerts">重新啟用高警報</string>
+    <string name="disable_all_alerts">停用所有警報</string>
+    <string name="re_enable_all_alerts">重新啟用所有警報</string>
+    <string name="cancel">取消</string>
+    <string name="set">設定</string>
+    <string name="alert_snoozed_by_phone">手機已暫停警報</string>
+    <string name="action_buttons_text">輸入治療，刷新資料庫，重新啟動收集器，XDrip 設定</string>
+    <string name="table_buttons_text">檢視血糖測試、治療、校準和血糖數據</string>
+    <string name="sensor_table">感應器表</string>
+    <string name="bg_readings_table">血糖讀值表</string>
+    <string name="calibration_data_table">校準表</string>
+    <string name="BloodTestTable">血糖測試表</string>
+    <string name="TreatmentsTable">治療表</string>
+    <string name="notify_refreshdb">已請求刷新穿戴裝置資料庫</string>
+    <string name="notify_table_size">表格 %1$s 包含 %2$d 項目。</string>
+    <string name="blukon">Blucon</string>
+    <string name="ok">確定</string>
+    <string name="enable_permission">啟用權限</string>
+    <string name="tomato">Tomato</string>
+    <string name="bubble">Bubble</string>
+    <string name="atom">Atom</string>
+    <string name="space_minutes_ago">分鐘前</string>
+    <string name="space_minute_ago">分鐘前</string>
+    <string name="snooze_alert">暫停警報</string>
+    <string name="sending_snooze">正在發送暫停</string>
+    <string name="bluereader_restdays_onhome_sum">在首頁顯示blueReader換電池的估計剩餘天數</string>
+    <string name="bluereader_restdays_onhome">首頁剩餘天數</string>
+    <string name="bluereader_turnoff_sum">如果電池低於選定值，則關閉blueReader</string>
+    <string name="bluereader_turnoff">安全關機</string>
+    <string name="blueReader_turnoffvalue">百分比值</string>
+    <string name="blueReader_turnoffvalue_sum">將關閉blueReader的百分比值</string>
+    <string name="days">天</string>
+    <string name="bluereaderoff">blueReader將因電量低於</string>
+    <string name="bluereader_position">檢查blueReader在感應器上的位置，因為無法讀取！</string>
+    <string name="bluereaderuglystate">發現blueReader處於不良狀態！現在將關機，您可以重新開機（按鈕短按）。之後blueReader應該可以正常工作！</string>
+    <string name="xdrip_software_changed_format">xDrip WATCH軟體版本從 %1$s 變更為 %2$s</string>
+    <string name="summary_always_on_screen">在藍牙掃描前強制保持螢幕常亮</string>
+    <string name="title_always_on_screen">強制螢幕常亮</string>
+    <string name="sumary_alert_use_sounds">如果手錶有喇叭，使用喇叭播放警報聲音</string>
+    <string name="title_alert_use_sounds">播放聲音</string>
+    <string name="summary_dark">暗黑主題</string>
+    <string name="title_dark">暗黑</string>
+    <string name="summary_showHeartRate">顯示最後心率</string>
+    <string name="title_showHeartRate">心率</string>
+    <string name="summary_use_low_bit_mode">總是使用低色彩省電模式</string>
+    <string name="title_use_low_bit_mode">低色彩</string>
+    <string name="summary_use_black_divider">分隔線與背景匹配</string>
+    <string name="title_use_black_divider">匹配分隔線</string>
+    <string name="summary_has_demigod_mode">在經過修改的ROM上運行，我們擁有完全控制權</string>
+    <string name="title_has_demigod_mode">半神模式</string>
+    <string name="xdrip_scanning_nfc">xDrip+ 掃描NFC</string>
+    <string name="still_processing_previous_backfill_request">仍在處理前次的回填請求！</string>
+    <string name="please_wait">請稍候...</string>
+    <string name="didnt_find_any_glucose_readings_in_that_time_period">在那段時間內沒有找到任何葡萄糖讀數</string>
+    <string name="got_calibration_in_the_future__cannot_process">收到未來的校準 - 無法處理！</string>
+    <string name="remote_snooze">遠程暫停...</string>
+    <string name="sensor_stopped">感應器已停止</string>
+    <string name="restarting_collector">正在重新啟動收集器！</string>
+    <string name="follower_deleted_succesfully">成功刪除追隨者</string>
+    <string name="failed_to_delete_follower">刪除追隨者失敗</string>
+    <string name="input_not_found_cancelled">未找到輸入！已取消！</string>
+    <string name="cancelled">已取消！</string>
+    <string name="no_sensor_found">未找到感應器</string>
+    <string name="checksum_failed__retrying">校驗失敗 - 正在重試</string>
+    <string name="scanning">正在掃描</string>
+    <string name="librealarm_data_format_appears_incompatible_protocol_changed_or_no_data">LibreAlarm數據格式似乎不兼容！協議已更改或無數據？</string>
+    <string name="please_update_librealarm_to_use_oop_algorithm">請更新LibreAlarm以使用OOP演算法</string>
+    <string name="sensor_clock_has_not_advanced">感應器時鐘未推進！</string>
+    <string name="sensor_age_has_gone_backwards">感應器年齡倒退了！！</string>
+    <string name="phone_has_no_nfc_reader">手機沒有NFC讀取器</string>
+    <string name="nfc_is_not_enabled">NFC未啟用</string>
+    <string name="phone_nfc_is_having_problems">手機NFC出現問題！</string>
+    <string name="not_so_quickly_wait_60_seconds">不要這麼快，等待60秒</string>
+    <string name="not_so_quickly_wait_30_seconds">不要這麼快，等待30秒</string>
+    <string name="nfc_diag_timeout">NFC診斷逾時</string>
+    <string name="nfc_read_timeout">NFC讀取逾時</string>
+    <string name="nfc_invalid_data__try_again">NFC數據無效 - 請重試</string>
+    <string name="turned_off_anytag_feature">已關閉任何標籤功能</string>
+    <string name="nfc_invalid_data">NFC數據無效</string>
+    <string name="scanned_ok">掃描成功！</string>
+    <string name="nfc_io_error">NFC IO錯誤</string>
+    <string name="nfc_error">NFC錯誤</string>
+    <string name="ob1_session_restarted_title">感應器會話已重新啟動</string>
+    <string name="ob1_session_restarted_msg">感應器會話已預先重新啟動，設為3天，請檢查下一次讀取是否有誤並進行校準</string>
+    <string name="ob1_session_restarted_note">傳送器會話已重新啟動</string>
+    <string name="xdrip_oop2_not_installed">xDrip+ 需要OOP2來處理Libre2/LibreUS感應器。</string>
+    <string name="please_update_OOP2_or_move_to_calibrate_based_on_raw_mode">請更新OOP2或轉為基於原始模式校準</string>
+</resources>
