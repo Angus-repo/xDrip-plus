@@ -1208,10 +1208,10 @@
     <string name="return_to_home_screen">回到主螢幕</string>
     <string name="title_broadcast_service_api">資料廣播服務API</string>
     <string name="summary_broadcast_service_api">透過使用新的 API 啟用xDrip 與第三方應用程式的通訊</string>
-    <string name="title_enable_iob_in_api_endpoint">Enable IoB reporting in API</string>
-    <string name="summary_enable_iob_in_api_endpoint">Enable IoB value reporting in Web Service API endpoint used by some smartwatches</string>
-    <string name="title_fetch_iob_from_companion_app">Fetch IoB from companion app</string>
-    <string name="summary_fetch_iob_from_companion_app">Fetch IoB from companion app</string>
+    <string name="title_enable_iob_in_api_endpoint">在 API 中啟用 IoB 報告</string>
+    <string name="summary_enable_iob_in_api_endpoint">在 Web 服務 API 端點中啟用 IoB 值報告，該端點由某些智慧手錶使用</string>
+    <string name="title_fetch_iob_from_companion_app">從配套應用程式獲取 IoB</string>
+    <string name="summary_fetch_iob_from_companion_app">從配套應用程式獲取 IoB</string>
     <string name="title_miband">小米手環</string>
     <string name="summary_miband_enable">與小米手環同步資料</string>
     <string name="title_miband_enable">使用小米手環</string>
@@ -1220,7 +1220,7 @@
     <string name="title_miband_show_date">在螢幕上顯示日期</string>
     <string name="title_miband_visibility">使小米手環搜索可見</string>
     <string name="summary_miband_visibility">小米手環將會被其他裝置搜索到</string>
-    <string name="title_miband_switch_display_on_wrist">Switch display on wrist</string>
+    <string name="title_miband_switch_display_on_wrist">手腕切換顯示</string>
     <string name="title_miband_units">單位</string>
     <string name="summary_miband_units">選擇手環中使用的距離單位</string>
     <string name="title_miband_goal_notification">達標通知</string>
@@ -1233,7 +1233,7 @@
     <string name="title_miband_nightmode_start">夜間模式開始時間</string>
     <string name="title_miband_nightmode_end">夜間模式結束時間</string>
     <string name="title_miband_interval_in_nightmode">同步頻率</string>
-    <string name="summary_miband_interval_in_nightmode">Defines how often BG would be synchronized in the night mode</string>
+    <string name="summary_miband_interval_in_nightmode">定義在夜間模式中血糖資料的同步頻率</string>
     <string name="title_miband_colect_heartrate">收集心率資料</string>
     <string name="summary_miband_colect_heartrate">將從手環收集心率資料。更新間隔可以在 MiFit 或任何第三方應用程式中配置</string>
     <string name="title_miband_authkey">認證密鑰</string>
@@ -1434,8 +1434,8 @@
     <string name="title_ongoing_notification_channel">使用持續的通知渠道</string>
     <string name="summary_notification_channels_grouping">通知是否應該被合併在一起。與「通知區域中的數字項」不相容。</string>
     <string name="title_notification_channels_grouping">組合通知。</string>
-    <string name="summary_delay_ascending_3min">For ascending volume profile, delay the start of the alert sound by 3 minutes. The vibration (if enabled) starts as soon as the alert triggers regardless of this setting.</string>
-    <string name="title_delay_ascending_3min">Delay Ascending Volume</string>
+    <string name="summary_delay_ascending_3min">對於遞增音量配置，延遲 3 分鐘開始警報聲。無論此設定如何，震動（如果啟用）會在警報觸發時立即開始。</string>
+    <string name="title_delay_ascending_3min">延遲遞增音量</string>
     <string name="summary_play_sound_for_initial_calibration">請求初始校準時播放聲音。</string>
     <string name="title_play_sound_for_initial_calibration">初始警報。</string>
     <string name="category_noisy_readings">干擾讀數</string>
@@ -1504,9 +1504,9 @@
     <string name="__do_you_want_to_change_settings_or_start_sensor">\n\n您想更改設置或重啟傳感器嗎</string>
     <string name="change_settings">更改設置</string>
     <string name="do_you_want_to_delete_and_reset_the_calibrations_for_this_sensor">您想要刪除並重置此傳感器的校準嗎？</string>
-    <string name="sensor_stop_confirm">Do you want to stop the sensor?</string>
-    <string name="sensor_stop_confirm_norestart">You will not be able to simply restart the sensor.</string>
-    <string name="sensor_stop_confirm_really_norestart">WARNING!</string>
+    <string name="sensor_stop_confirm">您確定要停止感測器嗎？</string>
+    <string name="sensor_stop_confirm_norestart">您將無法簡單地重新啟動感測器。</string>
+    <string name="sensor_stop_confirm_really_norestart">警告！</string>
     <string name="you_have_an_old_experimental_glucose_prediction_setting_enabled__this_is_not_recommended_and_could_mess_things_up_badly__shall_i_disable_this_for_you">您使用了舊的實驗性血糖預測設置。\n\n這並不被推薦而且可能會使運行嚴重錯亂。\n\n應該停用此功能嗎？</string>
     <string name="settings_issue">設置問題！</string>
     <string name="do_you_want_to_use_this_synced_fingerstick_blood_glucose_result_to_calibrate_with__you_can_change_when_this_dialog_is_displayed_in_settings">您想用這個同步的手指血糖結果校準嗎？\n\n(（當這個對話框在設置中顯示時，您可以更改）</string>
@@ -1565,7 +1565,7 @@
     <string name="nfc_is_not_enabled">NFC 未開啟</string>
     <string name="phone_nfc_is_having_problems">電話NFC遇到問題！</string>
     <string name="not_so_quickly_wait_60_seconds">沒那麼快，請等待60秒</string>
-    <string name="not_so_quickly_wait_30_seconds">Not so quickly, wait 30 seconds</string>
+    <string name="not_so_quickly_wait_30_seconds">沒這麼快，請等待30秒</string>
     <string name="nfc_diag_timeout">NFC判斷逾時</string>
     <string name="nfc_read_timeout">NFC讀取逾時</string>
     <string name="nfc_invalid_data__try_again">NFC無效資料-重試</string>
