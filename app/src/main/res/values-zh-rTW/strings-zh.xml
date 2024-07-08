@@ -236,7 +236,7 @@
     <string name="calibration_data_table">校準資料表</string>
     <string name="bg_data_table">血糖資料表</string>
     <string name="cannot_calibrate_right_now">現在不能校準</string>
-    <string name="hardware_data_source">硬件資料源</string>
+    <string name="hardware_data_source">硬體資料源</string>
     <string name="enter_ten_character_dexcom_receiver_serial">輸入10個字符的Dexcom 接收器序列號</string>
     <string name="dexcom_transmitter_id">Dexcom 發射器 ID</string>
     <string name="run_collector_in_foreground">在前台運行收集器</string>
