@@ -37,6 +37,10 @@
     <string name="pref_header_cloud_storage">Pilvesalvestus</string>
     <string name="auto_configure_title">Automaatne seadistamine</string>
     <string name="prefs_auto_config_summary">Automaatne seadistamine kasutades triipkoodi.</string>
+    <string name="auto_config_cam_title">Kaamera</string>
+    <string name="auto_config_cam_summary">Skaneeri oma telefoniga QR-kood (soovitatav)</string>
+    <string name="auto_config_image_title">Pildifail</string>
+    <string name="auto_config_image_summary">Saad salvestada QR-koodi pildifailina (nt .png või .jpeg) oma telefoni. Siis kasuta seda valikut, et salvestatud failist QR-kood skaneerida.</string>
     <string name="scan_share2_barcode">Skaneeri jagatud triipkoodi</string>
     <string name="pref_share2_scan_barcode_summary">Või skaneeri triipkoodi jagajalt</string>
     <!-- MongoDB Settings -->
@@ -115,6 +119,7 @@
     <string name="title_activity_update">xDrip+ uuendus saadaval</string>
     <string name="title_activity_display_qrcode">Jaga seadeid QR koodiga</string>
     <string name="title_activity_send_feed_back">Saada tagasisidet</string>
+    <string name="title_activity_save_logs">Salvesta logid</string>
     <string name="title_activity_maps">Parakeet kaart</string>
     <string name="title_activity_display_preferences">Ekraani seaded</string>
     <string name="export_submenu">Impordi / ekspordi valikud</string>
@@ -394,7 +399,9 @@
     <string name="please_enter_your_question_or_comments_here">Palun sisesta oma küsimused või kommentaarid siia.\n\nKui lisad meiliaadressi, võid isegi saada vastuse.\n\n</string>
     <string name="optional_contact_info_here_eg_email">Valikuline kontaktinfo siia, nt. e-mail</string>
     <string name="send_message">Saada sõnum</string>
+    <string name="save_logs">Salvesta logid</string>
     <string name="please_indicate_what_you_think_of_the_app_generally">Palun anna teada, mis sa äpist üldiselt arvad</string>
+    <string name="log_confidential_note">Hoiatus!\nLogid võivad sisaldada konfidentsiaalset teavet, näiteks paroole või kasutajatunnuseid.</string>
     <string name="preferences_saved_in_sdcard_downloads">Eelistused on salvestatud sisemisse salvestusruumi/allalaadimiste kausta</string>
     <string name="could_not_write_to_sdcard_check_perms">SD kaardile ei saa kirjutada, kontrolli õigusi?</string>
     <string name="loaded_preferences_restarting">Seaded laaditud! - Taaskäivitus</string>
@@ -593,7 +600,7 @@
     <string name="short_speak_readings_shortcut">Näita menüüs ☰ otseteed, et lülitada andmete ettelugemine sisse</string>
     <string name="speak_readings_shortcut">Andmete ütlemise otsetee</string>
     <string name="battery_optimization_off">Alates Android 6 veenduge, et aku optimeerimine oleks välja lülitatud (soovitatav).</string>
-    <string name="battery_optimization_on">Ära enam küsi aku säästerežiimi kohta (pole soovitatav).</string>
+    <string name="battery_optimization_on">Ära küsi pidevalt aku optimeerimise kohta kui see on lubatud (pole soovitatav).</string>
     <string name="battery_optimization_prompt">Aku optimeerimise otsetee</string>
     <string name="advanced_bluetooth_settings">Bluetoothi täpsemad sätted</string>
     <string name="bluetooth_settings">Bluetoothi seaded</string>
@@ -1407,6 +1414,7 @@
     <string name="summary_plus_accept_follower_actions">Raviandmed, kalibreerimised ja muud jälgijate toimingud aktsepteeritakse</string>
     <string name="title_plus_accept_follower_actions">Nõustuge jälgijate toimingutega</string>
     <string name="summary_plus_whole_house">Osale kogu maja võrgustikus</string>
+    <string name="summary_plus_xdrip_cloud">Kasuta uusi xDrip+ pilveservereid. Põhiseadmes ja jälgijatel peab see setting olema sama.</string>
     <string name="title_plus_whole_house">Kogu maja</string>
     <string name="summary_libre_whole_house_collector">See telefon on kogu maja võrgus vastuvõtjaks</string>
     <string name="title_libre_whole_house_collector">Libre kogu maja</string>
@@ -1727,6 +1735,7 @@
     <string name="proceed">Jätka</string>
     <string name="special_pairing_workaround">Spetsiaalne sidumise lahendus</string>
     <string name="save_power">Säästa energiat</string>
+    <string name="use_xdrip_cloud">Kasuta xDrip pilveteenust</string>
     <string name="reduce_battery_and_network_overhead">Vähenda aku ja võrgu koormust, kasutades pakett-töötlust ja välistades mittevajalikke andmeid</string>
     <string name="simplify_graphs_by_smoothing_out_irregularities">Lihtsusta graafikuid, siludes ebakorrapärasusi varasemates näitudes.  See ei mõjuta hetkenäitu, alarme ja edastatud väärtust.  </string>
     <string name="graph_smoothing">Graafiku silumine</string>
@@ -1855,4 +1864,5 @@
     <string name="use_camera_light">Kasuta kaamera välku</string>
     <string name="use_camera_light_summary">Vilguta alarmide ajal kaamera välku kui laadija on ühendatud</string>
     <string name="g7_should_start_automatically">G7 peaks automaatselt käivituma</string>
+    <string name="screenshot">Ekraanipilt</string>
 </resources>

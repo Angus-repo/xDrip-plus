@@ -37,6 +37,10 @@
     <string name="pref_header_cloud_storage">אחסון בענן</string>
     <string name="auto_configure_title">הגדרה אוטומטית</string>
     <string name="prefs_auto_config_summary">הגדרה אוטומטית באמצעות ברקוד.</string>
+    <string name="auto_config_cam_title">מצלמה</string>
+    <string name="auto_config_cam_summary">סרוק את קוה הQR עם המכשיר הסלולרי (מומלץ)</string>
+    <string name="auto_config_image_title">קובץ תמונה</string>
+    <string name="auto_config_image_summary">ניתן לשמור את קוד ה ER כקובץ תמונה (כדוגמת .png או .jpeg) על המכשיר הסלולרי . לאחר מכן השתמש באופציה זו כדי לסרוק את קוד הQR מהקובץ השמור.</string>
     <string name="scan_share2_barcode">סרוק ברקוד עבור Share</string>
     <string name="pref_share2_scan_barcode_summary">או סרוק את הברקוד שעל מקלט ה-Share</string>
     <!-- MongoDB Settings -->
@@ -115,6 +119,7 @@
     <string name="title_activity_update">קיים עדכון גרסא ל-xDrip+</string>
     <string name="title_activity_display_qrcode">שיתוף הגדרות באמצעות קוד QR</string>
     <string name="title_activity_send_feed_back">שלח פידבק ל-Jamorham</string>
+    <string name="title_activity_save_logs">שמור קובץ לוג</string>
     <string name="title_activity_maps">מפת Parakeet</string>
     <string name="title_activity_display_preferences">הגדרות תצוגה</string>
     <string name="export_submenu">ייבוא ויצוא של הגדרות ונתונים</string>
@@ -393,7 +398,10 @@
     <string name="please_enter_your_question_or_comments_here">אנא רשום את השאלות או הערות שלך כאן. \n\n אם תספק דואר אלקטרוני יכול להיות שתקבל תשובה \n\n</string>
     <string name="optional_contact_info_here_eg_email">אופציונלי - פרטים ליצירת קשר כגון דוא\"ל</string>
     <string name="send_message">שלח הודעה</string>
+    <string name="save_logs">שמור קובץ לוג</string>
     <string name="please_indicate_what_you_think_of_the_app_generally">אנא ציינו מה אתם חושבים על האפליקציה באופן כללי</string>
+    <string name="log_confidential_note">אזהרה!
+קובץ הלוג יכול להכיל מידע סודי ורגיש כמו סיסמאות או שמות משתמש.</string>
     <string name="preferences_saved_in_sdcard_downloads">ההגדרות נשמרו על כרטיס הזיכרון בתיקיית Downloads</string>
     <string name="could_not_write_to_sdcard_check_perms">כתיבה לכרטיס הזיכרון נכשלה - לבדוק את ההרשאות?</string>
     <string name="loaded_preferences_restarting">ההעדפות נטענו! - מאתחל</string>
@@ -1388,6 +1396,7 @@
     <string name="summary_plus_accept_follower_actions">קבל טיפולים וכיולים מהעוקבים</string>
     <string name="title_plus_accept_follower_actions">קבל את פעולות העוקבים</string>
     <string name="summary_plus_whole_house">השתתף ברשת כלל ביתית</string>
+    <string name="summary_plus_xdrip_cloud">השתמש בשרתי הענן החדשים של xDrip. הגדרה זו חייבת להיות זהה אצל הראשי ואצל העוקבים.</string>
     <string name="title_plus_whole_house">רשת כלל ביתית</string>
     <string name="summary_libre_whole_house_collector">טלפון זה ישמש כאוסף ברשת כלל ביתית</string>
     <string name="title_libre_whole_house_collector">רשת ליברה כלל ביתית</string>
@@ -1608,6 +1617,7 @@
     <string name="alert_buttons">כפתורי פעולות</string>
     <string name="please_wait_seconds_before_trying_to_start_sensor">אנא המתינו %d שניות לפני שתנסו להפעיל חיישן</string>
     <string name="save_power">חסוך בסוללה</string>
+    <string name="use_xdrip_cloud">השתמש בענן xDrip</string>
     <string name="reduce_battery_and_network_overhead">חסוך בסוללה ובשימוש בנתונים בעזרת ניתוח נתונים במכה, וכן הפחתה של מידע לא נחוץ</string>
     <string name="simplify_graphs_by_smoothing_out_irregularities">פשט את הגרפים בעזרת החלקה של נתונים יוצאי דופן</string>
     <string name="graph_smoothing">החלקת הגרף</string>
@@ -1639,4 +1649,5 @@
     <string name="carelink_credential_status_refresh_expired">פג תוקף כניסתך, אנא התחבר/י מחדש!</string>
     <string name="reraise_alerts_before_snooze_time">השמע את ההתראה שוב לפני זמן ההשתקה</string>
     <string name="g7_should_start_automatically">חיישן ה-G7 יתחיל אוטומטית</string>
+    <string name="screenshot">צילום מסך</string>
 </resources>
